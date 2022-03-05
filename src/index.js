@@ -65,7 +65,7 @@ module.exports = {
   WebSocketManager: require('./client/websocket/WebSocketManager'),
   WebSocketShard: require('./client/websocket/WebSocketShard'),
 
-  // Structures
+  // Structures djs
   Activity: require('./structures/Presence').Activity,
   AnonymousGuild: require('./structures/AnonymousGuild'),
   Application: require('./structures/interfaces/Application'),
@@ -146,6 +146,5 @@ module.exports = {
   WidgetMember: require('./structures/WidgetMember'),
   WelcomeChannel: require('./structures/WelcomeChannel'),
   WelcomeScreen: require('./structures/WelcomeScreen'),
-
   WebSocket: require('./WebSocket'),
 };
